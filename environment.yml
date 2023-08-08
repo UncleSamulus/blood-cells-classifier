@@ -1,0 +1,12 @@
+name: blood-cell-classifier
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - altair
+  - ipykernel
+  - pip
+  - scikit-learn
+  - pip:
+    - tensorflow==2.13.0
